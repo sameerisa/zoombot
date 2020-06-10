@@ -11,6 +11,7 @@ def execute(id, password):
     #click win key
     pyautogui.moveTo(5,1200, duration = 1)
     pyautogui.click(5,1200)
+    pyautogui.moveTo(5,1200, duration = 2)
     #search zoom
     pyautogui.typewrite("zoom")
     #click zoom
