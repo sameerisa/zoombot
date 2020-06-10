@@ -18,7 +18,7 @@ def execute(id, password):
     pyautogui.moveTo(137, 372, duration = 5)
     pyautogui.click(137, 372)
     #click join meeting
-    pyautogui.moveTo(972, 516, duration = 5)
+    pyautogui.moveTo(972, 516, duration = 6)
     pyautogui.click(972,516)
     #enter meeting id
     pyautogui.moveTo(800,475, duration = 4)
