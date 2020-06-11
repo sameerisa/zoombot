@@ -2,6 +2,8 @@
 
 cd C:\Users\samee\Documents\zoom_auto_join
 timeout /t 5
+start cmd.exe
+timeout /t 5
 
 call clear_schedule.bat
 timeout /t 5
