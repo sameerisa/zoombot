@@ -11,14 +11,14 @@ def execute(id, password):
     #click win key
     pyautogui.moveTo(5,1200, duration = 1)
     pyautogui.click(5,1200)
-    pyautogui.moveTo(5,1200, duration = 2)
+    pyautogui.moveTo(5,1200, duration = 5)
     #search zoom
     pyautogui.typewrite("zoom")
     #click zoom
     pyautogui.moveTo(137, 372, duration = 5)
     pyautogui.click(137, 372)
     #click join meeting
-    pyautogui.moveTo(972, 516, duration = 6)
+    pyautogui.moveTo(972, 516, duration = 10)
     pyautogui.click(972,516)
     #enter meeting id
     pyautogui.moveTo(800,475, duration = 4)
