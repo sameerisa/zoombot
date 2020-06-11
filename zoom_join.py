@@ -9,7 +9,7 @@ pyautogui.FAILSAFE = False
 
 def execute(id, password):
     #click win key
-    pyautogui.moveTo(5,1200, duration = 1)
+    pyautogui.moveTo(5,1200, duration = 10)
     pyautogui.click(5,1200)
     pyautogui.moveTo(5,1200, duration = 5)
     #search zoom
