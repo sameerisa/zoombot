@@ -9,14 +9,14 @@ pyautogui.FAILSAFE = False
 
 def execute(id, password):
     #click win key
-    pyautogui.moveTo(5,1200, duration = 10)
-    pyautogui.click(5,1200)
-    pyautogui.moveTo(5,1200, duration = 5)
+    #pyautogui.moveTo(5,1200, duration = 10)
+    #pyautogui.click(5,1200)
+    #pyautogui.moveTo(5,1200, duration = 5)
     #search zoom
-    pyautogui.typewrite("zoom")
+    #pyautogui.typewrite("zoom")
     #click zoom
-    pyautogui.moveTo(137, 372, duration = 5)
-    pyautogui.click(137, 372)
+    #pyautogui.moveTo(137, 372, duration = 5)
+    #pyautogui.click(137, 372)
     #click join meeting
     pyautogui.moveTo(972, 516, duration = 10)
     pyautogui.click(972,516)
