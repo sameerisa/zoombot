@@ -7,4 +7,4 @@ schtasks /create /sc DAILY /tn schedule3 /tr C:\Users\samee\Documents\zoom_auto_
 schtasks /create /sc DAILY /tn kill3 /tr C:\Users\samee\Documents\zoom_auto_join\kill.bat /st 05:15 /f
 rem schtasks /create /sc DAILY /tn schedule4 /tr C:\Users\samee\Documents\zoom_auto_join\meeting4.bat /st 03:18 /f
 rem schtasks /create /sc DAILY /tn kill4 /tr C:\Users\samee\Documents\zoom_auto_join\kill.bat /st 05:00 /f
-schtasks /create /sc DAILY /tn shutdown /tr C:\Users\samee\Documents\zoom_auto_join\shutdown.bat /st 04:16 /f
+schtasks /create /sc DAILY /tn shutdown /tr C:\Users\samee\Documents\zoom_auto_join\shutdown.bat /st 05:16 /f
