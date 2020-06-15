@@ -3,8 +3,7 @@
 cd C:\Users\samee\Documents\zoom_auto_join
 timeout /t 5
 git pull origin master
-timeout /t 5
-start cmd.exe
+
 timeout /t 5
 
 call clear_schedule.bat
