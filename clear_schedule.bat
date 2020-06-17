@@ -7,3 +7,4 @@ schtasks /delete /tn kill1 /f
 schtasks /delete /tn kill2 /f
 schtasks /delete /tn kill3 /f
 schtasks /delete /tn kill4 /f
+schtasks /delete /tn shutdown /f
