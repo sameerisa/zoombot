@@ -66,6 +66,7 @@ def main():
     parts = msg_str.get_payload()
     #print(parts)
     content1, content2 = parts
+    #content1, content2, content3 = parts
 
     print(content1)
     #print(type(content1))
@@ -73,7 +74,7 @@ def main():
     #print(body)
     #print(type(body))
 
-    #content1, content2, content3 = parts
+
 
    # print(content1.get_payload())
     mtId = 'Meeting ID:'
