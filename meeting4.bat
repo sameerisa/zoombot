@@ -1,5 +1,7 @@
 @echo off
 
+taskkill /F /IM Zoom.exe
+
 taskkill /F /IM TeamViewer.exe
 
 powershell -command "(new-object -com shell.application).minimizeall();

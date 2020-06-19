@@ -1,4 +1,7 @@
 @echo off
+
+taskkill /F /IM Zoom.exe
+
 taskkill /F /IM TeamViewer.exe
 
 
