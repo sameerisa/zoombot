@@ -14,6 +14,12 @@ timeout /t 5
 
 python C:\Users\samee\Documents\zoom_auto_join\zoom_join.py --i=%PARAM7% --p=%PARAM8%
 
+timeout /t 5
+
+start emailPhoto.bat
+
+timeout /t 1
+
 start C:\"Program Files (x86)"\TeamViewer\TeamViewer.exe
 
 start turnoffmonitor.bat
