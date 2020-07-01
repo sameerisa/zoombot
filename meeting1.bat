@@ -22,5 +22,3 @@ start emailPhoto.bat
 timeout /t 1
 
 start C:\"Program Files (x86)"\TeamViewer\TeamViewer.exe
-
-start turnoffmonitor.bat
