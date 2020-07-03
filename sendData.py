@@ -6,6 +6,9 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 import base64
 import email
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+import mimetypes
 import os
 
 SCOPES = ['https://mail.google.com/','https://www.googleapis.com/auth/gmail.readonly','https://www.googleapis.com/auth/gmail.modify', 'https://www.googleapis.com/auth/gmail.addons.current.message.readonly', 'https://www.googleapis.com/auth/gmail.addons.current.message.action']
@@ -60,11 +63,11 @@ def create_message_with_attachment(sender, to, subject, message_text, file):
   return {'raw': base64.urlsafe_b64encode(message.as_string())}
 
 def send_message(service, user_id, message):
-    
+
     message = (service.users().messages().send(userId=user_id, body=message).execute())
     print(message['id'])
     return message
-    
+
 
 
 def main():
@@ -86,15 +89,15 @@ def main():
 
     service = build('gmail', 'v1', credentials = creds)
     userId = 'me'
-    
+
     sender = 'sameersamisa@gmail.com'
     to = 'sabeasta@gmail.com'
     subject = 'Output'
     message_text = 'text'
     file = 'output.txt'
-    
+
     message = create_message_with_attachment(sender, to, subject, message_text, file)
-    
+
     send_message(service, userId, message)
 
 
