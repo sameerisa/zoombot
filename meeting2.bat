@@ -25,3 +25,6 @@ timeout /t 5
 start C:\"Program Files (x86)"\TeamViewer\TeamViewer.exe
 
 start killcmd.bat
+
+
+start turnoffmonitor.bat
