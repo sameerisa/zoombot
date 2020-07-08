@@ -1,10 +1,12 @@
 @echo off
 
+taskkill /F /IM python.exe
+
 taskkill /F /IM Zoom.exe
 
 taskkill /F /IM TeamViewer.exe
 
-start startEmailServer.bat
+rem start startEmailServer.bat
 
 
 powershell -command "(new-object -com shell.application).minimizeall();
@@ -25,7 +27,7 @@ timeout /t 5
 
 start C:\"Program Files (x86)"\TeamViewer\TeamViewer.exe
 
-start turnoffmonitor.bat
+rem start turnoffmonitor.bat
 
 timeout /t 5
 
