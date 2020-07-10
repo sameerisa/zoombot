@@ -20,7 +20,7 @@ python C:\Users\samee\Documents\zoom_auto_join\zoom_join.py --i=%PARAM3% --p=%PA
 
 timeout /t 5
 
-start emailPhoto.bat
+nircmd exec hide emailPhoto.bat
 
 timeout /t 5
 
@@ -31,6 +31,3 @@ rem start turnoffmonitor.bat
 timeout /t 5
 
 start killcmd.bat
-
-
-
