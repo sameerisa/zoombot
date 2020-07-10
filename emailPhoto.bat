@@ -10,6 +10,8 @@ del Capture.png
 
 nircmd.exe savescreenshot Capture.png
 
+timeout /t 5
+
 python emailPhoto.py
 
 start turnoffmonitor.bat
