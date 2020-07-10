@@ -14,6 +14,8 @@ timeout /t 5
 
 python emailPhoto.py
 
-start turnoffmonitor.bat
+timeout /t 5
+
+call turnoffmonitor.bat
 
 rem start killcmd.bat
