@@ -3,5 +3,5 @@
 
 taskkill /F /IM python.exe
 start turnoffmonitor.bat
-timeout /t 5
+timeout /t 10
 taskkill /F /IM cmd.exe
