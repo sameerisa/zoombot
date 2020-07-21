@@ -53,7 +53,7 @@ def main():
     labels = ['INBOX']
     messageId = ListMessagesWithLabels(service, userId, labels)
     #print(messageId)
-    meta = messageId[0]
+    meta = messageId[1]
     id = meta.get('id')
     message = GetMessage(service, userId, id)
     #print(message)
@@ -78,7 +78,7 @@ def main():
 
    # print(content1.get_payload())
     mtId = 'Meeting ID:'
-    passw = 'Password:'
+    passw = 'Passcode:'
     meetingId = []
     password = []
     size1 = 12
@@ -96,6 +96,7 @@ def main():
     index = temp.find(passw)
     #print(index)
     password.append(temp[index+size3:index+size3+size4])
+    #print(password)
     #print(password)
     temp = temp[index:]
 
