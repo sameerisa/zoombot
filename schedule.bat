@@ -5,7 +5,7 @@ schtasks /create /sc DAILY /tn schedule3 /tr C:\Users\samee\Documents\zoom_auto_
 rem schtasks /create /sc DAILY /tn schedule4 /tr C:\Users\samee\Documents\zoom_auto_join\meeting4.bat /st 03:18 /f
 
 schtasks /create /sc DAILY /tn monitor1 /tr C:\Users\samee\Documents\zoom_auto_join\emailPhoto.bat /st 01:00 /f
-schtasks /create /sc DAILY /tn monitor2 /tr C:\Users\samee\Documents\zoom_auto_join\emailPhoto.bat /st 03:00 /f
+schtasks /create /sc DAILY /tn monitor2 /tr C:\Users\samee\Documents\zoom_auto_join\emailPhoto.bat /st 02:30 /f
 schtasks /create /sc DAILY /tn monitor3 /tr C:\Users\samee\Documents\zoom_auto_join\emailPhoto.bat /st 05:00 /f
 rem schtasks /create /sc DAILY /tn monitor4 /tr C:\Users\samee\Documents\zoom_auto_join\emailPhoto.bat /st 01:10 /f
 
