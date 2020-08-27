@@ -47,7 +47,7 @@ def execute(id, password):
 
 meeting_id = args.i
 meeting_password = args.p
-if isinstance(meeting_id, str):
+if meeting_id.length() != 11:
     subprocess.call([r'C:\Users\samee\Documents\zoom_auto_join\shutdown.bat'])
     
 execute(meeting_id, meeting_password)
