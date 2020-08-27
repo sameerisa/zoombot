@@ -47,8 +47,8 @@ def execute(id, password):
 
 meeting_id = args.i
 meeting_password = args.p
-print(meeting_password.length())
-if meeting_password.length() == 6:
+print(len(meeting_password))
+if len(meeting_password) == 6:
     execute(meeting_id, meeting_password)
 else:
     subprocess.call([r'C:\Users\samee\Documents\zoom_auto_join\turnoff.bat'])
