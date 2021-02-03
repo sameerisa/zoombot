@@ -73,7 +73,9 @@ def main():
     body = content1.as_string()
     #print(body)
     #print(type(body))
-
+    body.replace('*', '')
+    body.replace(' ', '')
+    print(body)
 
 
    # print(content1.get_payload())
