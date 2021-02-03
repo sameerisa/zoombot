@@ -79,13 +79,16 @@ def main():
 
 
    # print(content1.get_payload())
-    mtId = 'Meeting ID:'
+    mtId = 'MeetingID:'
     passw = 'Passcode:'
     meetingId = []
     password = []
-    size1 = 12
-    size2 = 13
-    size3 = 10
+    #size1 = 12
+    size1 = 10
+    #size2 = 13
+    size2 = 11
+    #size3 = 10
+    size3 = 9
     size4 = 6
 
     #meeting 1
