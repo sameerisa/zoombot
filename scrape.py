@@ -73,8 +73,8 @@ def main():
     body = content1.as_string()
     #print(body)
     #print(type(body))
-    body.replace('*', '')
-    body.replace(' ', '')
+    body = body.replace('*', '')
+    body = body.replace(' ', '')
     print(body)
 
 
