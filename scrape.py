@@ -150,16 +150,15 @@ def main():
         j = i.replace(' ','')
         #print(j)
         meetingId2.append(j)
-        
-    
+
+
     for i in meetingId2:
         for k in meetingId2:
             if i != k:
                 if meetingId2[i] == meetingId2[k]:
                     meetingId2[k] = ''
                     password[k] = ''
-                else:
-
+                    
     print(meetingId2)
     print(password)
 
