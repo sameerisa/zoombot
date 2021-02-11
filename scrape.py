@@ -152,12 +152,14 @@ def main():
         meetingId2.append(j)
 
 
-    for i in meetingId2:
-        for k in meetingId2:
-            if i != k:
+    array_length = len(meetingId2)
+    for i in range(array_length):
+        for k in range(array_length):
+            if i != k and i != '':
                 if meetingId2[i] == meetingId2[k]:
                     meetingId2[k] = ''
                     password[k] = ''
+                
                     
     print(meetingId2)
     print(password)
