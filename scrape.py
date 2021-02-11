@@ -53,7 +53,7 @@ def main():
     labels = ['INBOX']
     messageId = ListMessagesWithLabels(service, userId, labels)
     #print(messageId)
-    meta = messageId[1]
+    meta = messageId[0]
     id = meta.get('id')
     message = GetMessage(service, userId, id)
     #print(message)
