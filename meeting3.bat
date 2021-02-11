@@ -18,7 +18,7 @@ timeout /t 5
 
 python C:\Users\samee\Documents\zoom_auto_join\zoom_join.py --i=%PARAM5% --p=%PARAM6%
 
-timeout /t 5
+timeout /t 30
 
 start emailPhoto.bat
 
