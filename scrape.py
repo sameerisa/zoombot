@@ -68,9 +68,9 @@ def main():
     content1, content2 = parts
     #content1, content2, content3 = parts
 
-    print(content2)
+    print(content1)
     #print(type(content1))
-    body = content2.as_string()
+    body = content1.as_string()
     #print(body)
     #print(type(body))
     body = body.replace('*', '')
