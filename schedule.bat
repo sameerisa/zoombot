@@ -1,6 +1,7 @@
 @echo off
-schtasks /create /sc DAILY /tn schedule1 /tr C:\Users\samee\Documents\zoom_auto_join\meeting1.bat /st 22:50 /f
-schtasks /create /sc DAILY /tn schedule2 /tr C:\Users\samee\Documents\zoom_auto_join\meeting2.bat /st 00:18 /f
+schtasks /create /sc DAILY /tn schedule0 /tr C:\Users\samee\Documents\zoom_auto_join\meeting1.bat /st 11:00 /f
+schtasks /create /sc DAILY /tn schedule1 /tr C:\Users\samee\Documents\zoom_auto_join\meeting1.bat /st 11:50 /f
+schtasks /create /sc DAILY /tn schedule2 /tr C:\Users\samee\Documents\zoom_auto_join\meeting2.bat /st 01:20 /f
 schtasks /create /sc DAILY /tn schedule3 /tr C:\Users\samee\Documents\zoom_auto_join\meeting3.bat /st 02:50 /f
 rem schtasks /create /sc DAILY /tn schedule4 /tr C:\Users\samee\Documents\zoom_auto_join\meeting4.bat /st 04:20 /f
 
